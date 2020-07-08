@@ -9,7 +9,7 @@ const trainingData = data.map(item => ({
 }));
 
 network.train(trainingData, {
-    iterations: 4000,
+  //  iterations: 4000,
     log: (err) => console.log(err)
 });
 
